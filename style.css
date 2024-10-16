@@ -1,0 +1,108 @@
+html body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    height: 100vh;
+    background-image: url(..//images/classroom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box
+}
+
+nav{
+    background-color: rgb(83, 54, 54);
+    height: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    color:orangered;
+    display: flex;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color:orangered;
+    display: inline;
+}
+
+.logo {
+    display: flex;
+    color: orangered;
+}
+.logo img{
+    width: 10%;
+}
+
+.Hero-section {
+    font-size: larger;
+    font-weight: 500;
+    color:black;
+    text-align: center;
+    padding: 5rem;
+    width: 40rem;
+    margin: auto;
+}
+
+button {
+    background-color: orangered;
+    width: 7rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.activities {
+    display: flex;
+}
+
+.activities img {
+    width: 20rem;
+    height: 15rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+footer {
+    background-color: rgb(83, 54, 54);
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: fit-content;
+        height:fit-content;
+    }
+
+    .Hero {
+        align-items: center;
+    }
+
+    .activities img {
+        width: 12rem;
+        height: 10rem;
+        padding: 1rem;
+    }   
+}
+
